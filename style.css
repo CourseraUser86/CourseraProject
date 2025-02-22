@@ -8,7 +8,29 @@ header{
 }
 
 nav{
+  display: inline-block
+  width: 80%;
   background-color: #7ae861;
+}
+nav > img {width: 10%;
+           position: relative;
+           top: 20px;
+          }
+
+.gridclass{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+.gridclass > img{
+  width: 100%;
+}
+.flexclass{display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+         
 }
 
 main{
@@ -20,10 +42,10 @@ footer{
   background-color: #43d6b9;
 }
 
-li{
+/* li{
   display: inline-block;
   width: 120px;
-}
+} */
 
 h1{
   text-align: left;
