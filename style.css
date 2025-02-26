@@ -44,7 +44,13 @@ h1{
   transition-delay: 0s;
 }
 
-@keyframes race{0%{color: floralwhite;}50%{color: red}100%{color: green}}
+@keyframes race{0%{
+  color: floralwhite;
+}50%{
+  color: red
+}100%{
+  color: green
+}}
 
 h1:hover{
   animation-name: race;
