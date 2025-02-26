@@ -100,7 +100,7 @@ h1:hover{
 
 @keyframes images{0%{
   color: yellow;
-  border: 3px solid
+  border: 3px solid;
 }50%{
   color: red;
   border: 4px solid;
