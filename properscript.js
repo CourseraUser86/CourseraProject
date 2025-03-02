@@ -13,9 +13,9 @@ function upDate(x){
   
  console.log(x.src);
   
- if (x.src === source_part + "images/bananagrams_maybe.jpg"){document.getElementById("image").style.color = "#ca3545"};
- if (x.src === source_part + "images/chill.jpg"){document.getElementById("image").style.color = "#ca3545"};
- if (x.src === source_part + "images/dollars.jpg"){};
+ if (x.src === source_part + "bananagrams_maybe.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "chill.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "dollars.jpg"){};
  if (x.src === source_part + "images/dolphin.jpg"){document.getElementById("image").style.color = "#ca3545"};
  if (x.src === source_part + "images/h2o.jpg"){};
  if (x.src === source_part + "images/idk.jpg"){document.getElementById("image").style.color = "#ca3545"};
