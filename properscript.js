@@ -13,12 +13,12 @@ function upDate(x){
   
  console.log(x.src);
   
- if (x.src === source_part + "bananagrams_maybe.jpg"){document.getElementById("image").style.color = "#ca3545"};
- if (x.src === source_part + "chill.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "bananagrams_maybe.jpg"){document.getElementById("image").style.color = "#CA3545"};
+ if (x.src === source_part + "chill.jpg"){document.getElementById("image").style.color = "#CA3545"};
  if (x.src === source_part + "dollars.jpg"){};
- if (x.src === source_part + "dolphin.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "dolphin.jpg"){document.getElementById("image").style.color = "#CA3545"};
  if (x.src === source_part + "h2o.jpg"){};
- if (x.src === source_part + "idk.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "idk.jpg"){document.getElementById("image").style.color = "#CA3545"};
   
  document.getElementById("image").style.backgroundImage = "url('"+x.src+"')";
 
