@@ -9,16 +9,16 @@ function upDate(x){
   
  document.getElementById("image").innerHTML = x.alt;
   
- let source_part = "https://f563e4fc-bdd9-458b-a7e7-c03664ae90b1-00-2rn0ybdf518bn.janeway.replit.dev/";
+ let source_part = "https://courserauser86.github.io/CourseraProject/";
   
  console.log(x.src);
   
  if (x.src === source_part + "bananagrams_maybe.jpg"){document.getElementById("image").style.color = "#ca3545"};
  if (x.src === source_part + "chill.jpg"){document.getElementById("image").style.color = "#ca3545"};
  if (x.src === source_part + "dollars.jpg"){};
- if (x.src === source_part + "images/dolphin.jpg"){document.getElementById("image").style.color = "#ca3545"};
- if (x.src === source_part + "images/h2o.jpg"){};
- if (x.src === source_part + "images/idk.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "dolphin.jpg"){document.getElementById("image").style.color = "#ca3545"};
+ if (x.src === source_part + "h2o.jpg"){};
+ if (x.src === source_part + "idk.jpg"){document.getElementById("image").style.color = "#ca3545"};
   
  document.getElementById("image").style.backgroundImage = "url('"+x.src+"')";
 
